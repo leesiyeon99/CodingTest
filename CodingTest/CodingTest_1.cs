@@ -14,14 +14,7 @@
         }
         static void Main(string[] args)
         {
-            Solution solution = new Solution();
-            int number1, number2;
-            Console.Write("첫번째 숫자 입력: ");
-            int.TryParse(Console.ReadLine(), out number1);
-            Console.Write("두번째 숫자 입력: ");
-            int.TryParse(Console.ReadLine(), out number2);
-            int answer = solution.solution(number1, number2);
-            Console.WriteLine("답은: "+answer);
+
         }
     }
 }
