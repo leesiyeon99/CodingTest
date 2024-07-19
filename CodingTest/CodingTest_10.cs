@@ -14,7 +14,7 @@ namespace CodingTest
         {
             public int[] solution(int[] numbers)
             {
-                int[] answer = new int[] { };
+                int[] answer = new int[numbers.Length];
                 for (int i = 0; i < numbers.Length; i++)
                 {
                     answer[i] = numbers[i] * 2;
@@ -22,8 +22,5 @@ namespace CodingTest
                 return answer;
             }
         }
-
-        
-
     }
 }
